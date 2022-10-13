@@ -1,15 +1,22 @@
-public class Facade {
+public class Facade extends Instructor {
 
-	private String instructorType0;
+	private String instructorType;
 
 	private String instructorName;
 
 	private String instructorMail;
 
 	public void login() {
-
+		
+		System.out.println("Instructor Login Successful");
+		System.out.println("This class will fetch all the details of instructor and store in a object.");
+		
+		System.out.println("After instructor details, it will call functions to generate syllabus");
+		
+		showSyllabusMenu();
 	}
-
+		
+		
 	public String getPreviousSyllabus() {
 		return null;
 	}

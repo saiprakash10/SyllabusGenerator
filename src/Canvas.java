@@ -3,8 +3,7 @@ public class Canvas {
 	/**
 	 *  
 	 */
-	public String getPreviousYearSyllabus() {
-		return null;
+	public void getSyllabus() {
 	}
 
 	/**
