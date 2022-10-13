@@ -1,4 +1,4 @@
-public class Instructor implements SyllabusGenerator            {
+public abstract class Instructor implements Syllabus{
 
 	private int syllabusGenerator;
 
@@ -18,7 +18,8 @@ public class Instructor implements SyllabusGenerator            {
 
 	}
 
-	public abstract void GenerateSyllabus();
+	public void GenerateSyllabus() {
+	}
 
 	public void createSyllabus() {
 

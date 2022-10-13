@@ -1,6 +1,7 @@
+
 public interface SyllabusGenerationModule {
 
-	private InstructorBuilder instructorBuilder;
+	InstructorBuilder instructorBuilder = new InstructorBuilder();
 
 	/**
 	 *  

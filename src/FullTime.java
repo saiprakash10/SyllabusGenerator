@@ -4,4 +4,10 @@ public class FullTime extends Instructor {
 
 	}
 
+	@Override
+	public void showSyllabusMenu() {
+		// TODO Auto-generated method stub
+		
+	}
+
 }

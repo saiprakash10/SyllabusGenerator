@@ -16,4 +16,10 @@ public class CourseSyllabus implements Syllabus {
 
 	}
 
+	@Override
+	public void createSyllabus() {
+		// TODO Auto-generated method stub
+		
+	}
+
 }

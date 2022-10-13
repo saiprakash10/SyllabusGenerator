@@ -1,6 +1,6 @@
-public interface Syllabus {
 
-	private Instructor instructor;
+
+public interface Syllabus {
 
 	public abstract void showSyllabusMenu();
 

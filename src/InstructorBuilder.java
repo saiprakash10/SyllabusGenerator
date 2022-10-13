@@ -6,19 +6,7 @@ public class InstructorBuilder {
 
 	private Grader grader;
 
-	private ProgrammeChair programmeChair;
-
-	private ProgrammeChair programmeChair;
-
-	private Grader grader;
-
-	private Grader grader;
-
 	private SyllabusGenerationModule syllabusGenerationModule;
-
-	public void showSyllabusMenu() {
-
-	}
 
 	public void editSyllabus() {
 
